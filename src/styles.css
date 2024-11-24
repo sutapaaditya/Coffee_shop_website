@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background-color: #EEAABB;
+}
+
+.container{
+  /* border: 1px solid greenyellow; */
+  background-color: #e06785;
+  color: #77182F;
+  width: 80%;
+  margin: 0 auto;
+}
