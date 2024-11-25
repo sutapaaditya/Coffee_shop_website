@@ -13,9 +13,13 @@ body{
 }
 
 .container{
-  /* border: 1px solid greenyellow; */
   background-color: #e06785;
   color: #77182F;
   width: 80%;
   margin: 0 auto;
+}
+@media (max-width:768px){
+  .container{
+    width: 100%;
+  }
 }
