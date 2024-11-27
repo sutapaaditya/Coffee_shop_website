@@ -1,0 +1,26 @@
+<div class="product-container" *ngIf="coffee">
+  <div class="product-image">
+    <img [src]="coffee.image" [alt]="coffee.name">
+  </div>
+  
+  <div class="product-info">
+    <h1>{{coffee.name}}</h1>
+    <p class="category">{{coffee.category}}</p>
+    <p class="description">{{coffee.description}}</p>
+    <p class="price">${{coffee.price.toFixed(2)}}</p>
+    
+    <div class="quantity-control">
+      <button (click)="decrementQuantity()">-</button>
+      <span>{{quantity}}</span>
+      <button (click)="incrementQuantity()">+</button>
+    </div>
+    
+    <div class="total">
+      <span>Total:</span>
+      <span class="total-price">${{(coffee.price * quantity).toFixed(2)}}</span>
+    </div>
+    
+    <button class="order-btn" (click)="placeOrder()">Place Order</button>
+    <button class="back-btn" routerLink="/menu">Back to Menu</button>
+  </div>
+</div>

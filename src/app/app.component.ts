@@ -5,6 +5,9 @@ import { FooterComponent } from './components/footer/footer.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { AboutusComponent } from './components/aboutus/aboutus.component';
 import { HeaderComponent } from './components/header/header.component';
+import { MenuComponent } from './components/menu/menu.component';
+import { ProductDetailsComponent } from './components/product-details/product-details.component';
+import { HomeComponent } from './components/home/home.component';
 
 @Component({
   selector: 'app-root',
@@ -15,9 +18,13 @@ import { HeaderComponent } from './components/header/header.component';
     FooterComponent,
     GalleryComponent,
     AboutusComponent,
-    HeaderComponent],
+    HeaderComponent,
+    MenuComponent,
+    ProductDetailsComponent,
+    HomeComponent
+  ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'Mywork';
