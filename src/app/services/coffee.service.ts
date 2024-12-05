@@ -11,7 +11,7 @@ export class CoffeeService {
       name: 'Classic Espresso',
       description: 'Rich and concentrated coffee brewed by forcing hot water through finely-ground coffee beans.',
       price: 3.99,
-      image: 'assets/images/espresso.jpg',
+      image: 'assets/coffee_image_card/coffee-1.jpg',
       category: 'Hot Coffee'
     },
     {
@@ -19,7 +19,7 @@ export class CoffeeService {
       name: 'Cappuccino',
       description: 'Equal parts espresso, steamed milk, and milk foam, creating a perfectly balanced coffee drink.',
       price: 4.99,
-      image: 'assets/images/cappuccino.jpg',
+      image: 'assets/coffee_image_card/coffee-2.jpg',
       category: 'Hot Coffee'
     },
     {
@@ -27,7 +27,7 @@ export class CoffeeService {
       name: 'Iced Latte',
       description: 'Chilled espresso mixed with cold milk and served over ice for a refreshing coffee experience.',
       price: 4.49,
-      image: 'assets/images/iced-latte.jpg',
+      image: 'assets/coffee_image_card/coffee-3.jpg',
       category: 'Cold Coffee'
     },
     {
@@ -35,7 +35,7 @@ export class CoffeeService {
       name: 'Caramel Macchiato',
       description: 'Vanilla-flavored drink marked with espresso and caramel drizzle.',
       price: 5.49,
-      image: 'assets/images/caramel-macchiato.jpg',
+      image: 'assets/coffee_image_card/coffee-4.jpg',
       category: 'Specialty'
     },
     {
@@ -43,7 +43,7 @@ export class CoffeeService {
       name: 'Mocha Frappuccino',
       description: 'A delightful blend of coffee, chocolate, milk, and ice, topped with whipped cream.',
       price: 5.99,
-      image: 'assets/images/mocha-frappuccino.jpg',
+      image: 'assets/coffee_image_card/coffee-5.jpg',
       category: 'Cold Coffee'
     },
     {
@@ -51,7 +51,7 @@ export class CoffeeService {
       name: 'Turkish Coffee',
       description: 'Finely ground coffee beans simmered in a pot, served in the traditional style.',
       price: 4.99,
-      image: 'assets/images/turkish-coffee.jpg',
+      image: 'assets/coffee_image_card/coffee-6.jpg',
       category: 'Hot Coffee'
     },
     {
@@ -59,7 +59,7 @@ export class CoffeeService {
       name: 'Affogato',
       description: 'A scoop of vanilla ice cream drowned in a shot of hot espresso.',
       price: 6.49,
-      image: 'assets/images/affogato.jpg',
+      image: 'assets/coffee_image_card/coffee-7.jpg',
       category: 'Specialty'
     },
     {
@@ -67,7 +67,7 @@ export class CoffeeService {
       name: 'Cold Brew',
       description: 'Coffee grounds steeped in cold water for 12+ hours, producing a smooth, less acidic taste.',
       price: 4.99,
-      image: 'assets/images/cold-brew.jpg',
+      image: 'assets/coffee_image_card/coffee-8.jpg',
       category: 'Cold Coffee'
     }
   ];

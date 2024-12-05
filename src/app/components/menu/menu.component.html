@@ -1,6 +1,6 @@
 <div class="menu-container">
   <h1 class="menu-title">Our Coffee Menu</h1>
-  
+
   <div class="menu-grid">
     <div class="menu-item" *ngFor="let coffee of coffees">
       <div class="menu-item-image">
@@ -9,7 +9,6 @@
       <div class="menu-item-content">
         <h3>{{coffee.name}}</h3>
         <p class="price">${{coffee.price.toFixed(2)}}</p>
-        <p class="category">{{coffee.category}}</p>
         <button class="details-btn" (click)="viewDetails(coffee.id)">View Details</button>
       </div>
     </div>

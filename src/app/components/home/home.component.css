@@ -15,45 +15,47 @@
 }
 
 .hero-content h1 {
-  font-size: 3.5rem;
+  font-size: 3.8rem;
   margin-bottom: 1rem;
 }
 
 .hero-content p {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin-bottom: 2rem;
 }
 
 .cta-button {
   display: inline-block;
   padding: 1rem 2rem;
-  background-color: #e67e22;
+  background-color: #551122;
   color: white;
   text-decoration: none;
   border-radius: 5px;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-transform: uppercase;
   transition: background-color 0.3s ease;
 }
 
-.cta-button:hover {
-  background-color: #d35400;
+.cta-button:hover, .menu-button:hover {
+  background-color: #581b2a;
 }
 
 .featured-section {
   padding: 4rem 2rem;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: #742035;
 }
 
 .featured-section h2 {
-  font-size: 2.5rem;
-  color: #2c3e50;
+  font-size: 3rem;
+  color: #fff;
   margin-bottom: 1rem;
 }
 
 .featured-section p {
-  font-size: 1.2rem;
-  color: #7f8c8d;
+  font-size: 1.8rem;
+  color: #fff;
   max-width: 800px;
   margin: 0 auto 2rem;
 }
@@ -67,27 +69,24 @@
 .menu-button {
   display: inline-block;
   padding: 1rem 2rem;
-  background-color: #3498db;
+  background-color: #953a51;
   color: white;
+  text-transform: uppercase;
   text-decoration: none;
   border-radius: 5px;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   transition: background-color 0.3s ease;
-}
-
-.menu-button:hover {
-  background-color: #2980b9;
 }
 
 @media (max-width: 768px) {
   .hero-content h1 {
     font-size: 2.5rem;
   }
-  
+
   .hero-content p {
     font-size: 1.2rem;
   }
-  
+
   .featured-section h2 {
     font-size: 2rem;
   }
