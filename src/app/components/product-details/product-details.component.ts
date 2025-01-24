@@ -24,7 +24,7 @@ export class ProductDetailsComponent implements OnInit {
   ngOnInit(): void {
     const id = Number(this.route.snapshot.paramMap.get('id'));
     this.coffee = this.coffeeService.getCoffeeById(id);
-    
+
     if (!this.coffee) {
       this.router.navigate(['/menu']);
     }
